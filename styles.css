@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#landing {
+    background-color: white;
+    position: relative;
+}
+
+hr {
+    width: 10%;
+    border-style: dotted none none;
+    border-width: 10px;
+    color: #EAF6F6;
+    margin: 10rem auto;
+  }
+
+.navbar {
+    width: 100%;
+    background: linear-gradient(to right, hsl(237, 97%, 67%),  hsl(237, 97%, 54%));
+}
+
+/* Banner */
+#banner {
+    background: linear-gradient(to right, hsl(237, 97%, 67%),  hsl(237, 97%, 54%));
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
+.wave1 {
+    width: 100%;
+}
+
+.btn {
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: hsl(278, 82%, 58%);
+    border: none;
+}
+
+.btn:hover {
+    background-color: hsl(278, 82%, 53%);
+    color: white;
+}
+
+.btn:active {
+    background-color: hsl(278, 82%, 63%);
+    font-size: 19.8px;
+}
+
+/* services */
+#services {
+    padding: 7% 5% 0;
+}
+
+h3 p {
+    color: #8f8f8f;
+}
+
+#services i {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+#services i:hover {
+    color: #ff4c68;
+}
+/* tools */
+#tools {
+    margin-top: 10rem;
+}
+
+.tool-container img{
+    height: 60px;
+    width: 60px;
+}
+.img-container {
+    width: 120px;
+    height: 75px;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+/* projects */
+#projects {
+    position: relative;
+    top: 40px;
+    z-index: 10;
+}
+
+/* contacts */
+#contacts {
+    position: relative;
+    height: 30rem;
+}
+#contacts img {
+    position: absolute;
+}
+.footer-text {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.socmed {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 10px;
+    z-index: 11;
+}
+
+.btn-bottom {
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: hsl(278, 82%, 58%);
+    border: none;
+}
+.btn-bottom:active {
+    background-color: hsl(278, 82%, 63%);
+    font-size: 15.8px;
+}
+
+.socmed img {
+    margin: 0 15px;
+    width: 50px;
+    transition: 0.1s;
+}
+.socmed a:hover img {
+    transform: translateY(-10px);
+}
+
+.main-bg {
+    bottom: 30vh;
+    background: linear-gradient(to right, hsl(237, 97%, 67%),  hsl(237, 97%, 54%));
+    position: absolute;
+}
+.pattern-bg {
+    position: absolute;
+    height: 30vh;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, hsl(237, 97%, 67%),  hsl(237, 97%, 54%));
+}
+
+
+
+/* media query */
+
+@media (max-width:769px) {
+    /* socmed */
+    .footer-text {
+        font-size: 18px;
+    }
+    .socmed img {
+        width: 40px;
+    }
+
+    /* tools */
+    .img-container img {
+        height: 50px;
+        width: 50px;
+    }
+    .img-container {
+        height: 60px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+@media  (max-width: 426px) {
+
+    i + h3 {
+        font-size: 20px;
+    }
+
+    h3 + p {
+        font-size: 15px;
+    }
+
+    .socmed {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        bottom: -12rem;
+        z-index: 11;
+    }
+
+    .socmed img {
+        margin: 5px 5px 0;
+        width: 24px;
+        transition: 0.5s;
+    }
+
+    .footer-text {
+        font-size: 20px;
+    }
+    #tools {
+        margin-top: 0;
+        
+    }
+    hr{
+        margin: 2rem auto;
+    }
+
+    #projects {
+        top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #contacts {
+        top: 13rem;
+        height: 100%;
+    }
+
+    .tools-main-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-container img {
+        height: 50px;
+        width: 50px;
+    }
+    .img-container {
+        height: 60px;
+        width: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media  (max-width: 320px) {
+
+
+    .name {
+        font-size: 30px;
+    }
+    .intro h3 {
+        font-size: 15px;
+    }
+
+    .btn {
+        width: 90px;
+        height: 30px;
+        font-size: 10px;
+    
+    }
+    
+    .btn:active {
+        background-color: hsl(278, 82%, 63%);
+        font-size: 9.8px;
+    }
+    
+
+    .tools-main-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-container img {
+        height: 30px;
+        width: 30px;
+    }
+    .img-container {
+        height: 40px;
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
