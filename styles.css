@@ -20,16 +20,20 @@ hr {
 .navbar {
     width: 100%;
     background: linear-gradient(to right, hsl(237, 97%, 67%),  hsl(237, 97%, 54%));
+    z-index: 4
 }
 
 /* Banner */
 #banner {
     background: linear-gradient(to right, hsl(237, 97%, 67%),  hsl(237, 97%, 54%));
     color: white;
+    position: relative;
 }
 html {
     scroll-behavior: smooth;
 }
+
+
 .wave1 {
     width: 100%;
     background: linear-gradient(to right, hsl(237, 97%, 67%),  hsl(237, 97%, 54%));
@@ -124,22 +128,6 @@ h3 p {
 .fab-icons i {
     margin-right: 10px;
     color: #ef8172;
-}
-
-/* About */
-#about img {
-    height: 160px;
-    width: 160px;
-}
-.educDiv {
-    width: 500px;
-    margin: 0 auto;
-}
-#about ul {
-    list-style: none;
-}
-#about ul li {
-    margin: 0 0 10px;
 }
 
 
@@ -264,10 +252,7 @@ h3 p {
 @media  (max-width: 426px) {
 
     /* background */
-    .educDiv {
-        width: 300px;
-        margin: 0 auto;
-    }
+    
 
     i + h3 {
         font-size: 20px;
