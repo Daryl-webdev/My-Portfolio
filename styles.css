@@ -32,10 +32,21 @@ html {
 }
 .wave1 {
     width: 100%;
+    background: linear-gradient(to right, hsl(237, 97%, 67%),  hsl(237, 97%, 54%));
+}
+
+.sub-text {
+    font-family: "Ubuntu", sans-serif;
+    color: hsl(0, 0%, 80%);
+    font-weight: 200;
+}
+
+.btn-one a {
+    text-decoration: none;
+    color: white;
 }
 
 .btn {
-    color:white;
     font-family: 'Ubuntu', sans-serif;
     background-color: hsl(278, 82%, 58%);
     border: none;
@@ -94,13 +105,50 @@ h3 p {
     top: 40px;
     z-index: 10;
 }
+#projects img {
+    border-radius: 10px;
+}
 
-/* contacts */
-#contacts {
+.btn-project a {
+    color: white;
+    text-decoration: none;
+}
+.btn-project:active {
+    font-size: 15.8px;
+    background-color: blue ;
+}
+
+.fab-icons {
+    margin: 0 0 5px;
+}
+.fab-icons i {
+    margin-right: 10px;
+    color: #ef8172;
+}
+
+/* About */
+#about img {
+    height: 160px;
+    width: 160px;
+}
+.educDiv {
+    width: 500px;
+    margin: 0 auto;
+}
+#about ul {
+    list-style: none;
+}
+#about ul li {
+    margin: 0 0 10px;
+}
+
+
+/* footer */
+#footer {
     position: relative;
     height: 30rem;
 }
-#contacts img {
+#footer img {
     position: absolute;
 }
 .footer-text {
@@ -117,8 +165,12 @@ h3 p {
     z-index: 11;
 }
 
+.footer-text + button a {
+    text-decoration: none;
+    color: white;
+}
+
 .btn-bottom {
-    color:white;
     font-family: 'Ubuntu', sans-serif;
     background-color: hsl(278, 82%, 58%);
     border: none;
@@ -149,7 +201,38 @@ h3 p {
     width: 100%;
     background: linear-gradient(to right, hsl(237, 97%, 67%),  hsl(237, 97%, 54%));
 }
+/* contact.html */
+#gmap_canvas {
+	height: 60vh;
+	width: 100%;
+}
 
+.form-btn .btn {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.form-btn .btn:active {
+    background-color: hsl(278, 82%, 50%) !important;
+    font-size: 15.8px;
+}
+
+/* scroll up */
+/* .scrollToTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    border-radius: 50%;
+    z-index: 12;
+}
+.scrollToTop i {
+    color: hsl(278, 82%, 50%);
+} */
 
 
 /* media query */
@@ -179,6 +262,12 @@ h3 p {
 
 
 @media  (max-width: 426px) {
+
+    /* background */
+    .educDiv {
+        width: 300px;
+        margin: 0 auto;
+    }
 
     i + h3 {
         font-size: 20px;
@@ -220,7 +309,7 @@ h3 p {
         margin-top: 0;
         margin-bottom: 0;
     }
-    #contacts {
+    #footer {
         top: 13rem;
         height: 100%;
     }

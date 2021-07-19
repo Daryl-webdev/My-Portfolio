@@ -40,13 +40,13 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item mx-md-3 mx-lg-5">
-                    <a class="nav-link" href="#tools">Tools</a>
-                    </li>
-                    <li class="nav-item mx-md-3 mx-lg-5">
                     <a class="nav-link" href="#projects">Project</a>
                     </li>
                     <li class="nav-item mx-md-3 mx-lg-5">
-                    <a class="nav-link" href="#contacts" >Contact</a>
+                        <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    <li class="nav-item mx-md-3 mx-lg-5">
+                    <a class="nav-link" href="contacts.html" >Contact</a>
                     </li>
                 </ul>
                 </div>
@@ -63,7 +63,8 @@
                             <h3>I am a</h3>
                             <h3 class="typing"></h3>
                         </div> 
-                        <button class="btn-one btn  btn-lg mt-3 mt-md-5"> Lets talk <i class="fas fa-paper-plane"></i></button>
+                        <h6 class="sub-text"><em>Make your life easier.</em> </h6>
+                        <button class="btn-one btn  btn-lg mt-3 mt-md-5"><a href="contacts.html">Lets talk <i class="fas fa-paper-plane"></i></a></button>
                     </div>
                     <div class="col-md-6">
                         <img src="https://www.pngplay.com/wp-content/uploads/5/Web-Design-Man-Icon-PNG.png" alt="" class="img-fluid mt-5">
@@ -80,19 +81,19 @@
             <h1 class="services-text text-center mb-md-5">What I Do</h1>
             <div class="row text-center">
               <div class="services-icon-container col-lg-4">
-                <i class="fas fa-code fa-md-3x" aria-hidden="true"></i>
+                <i class="fas fa-code fa-2x" aria-hidden="true"></i>
                 <h3>Development.</h3>
                 <p>HTML/CSS, JavaScript Responsive Website</p>
               </div>
               
               <div class="col-lg-4">
-                <i class="fas fa-paint-brush fa-md-3x" aria-hidden="true"></i>
+                <i class="fas fa-paint-brush fa-2x" aria-hidden="true"></i>
                 <h3>UI/UX</h3>
                 <p>Landing Pages, Use Case diagram, Wireframing, Prototyping, Web Design</p>
               </div>
         
               <div class="col-lg-4">
-                <i class="fas fa-heart fa-md-3x" aria-hidden="true"></i>
+                <i class="fas fa-heart fa-2x" aria-hidden="true"></i>
                 <h3>Materialize wireframe</h3>
                 <p>Convert your pdf/dfs to actual website</p>
               </div>
@@ -155,35 +156,41 @@
 			<h1 class="text-center mb-md-5">Projects</h1>
 
 			<div class="row py-3">
-				<div class="col-md-6 order-2 order-md-1">
-					<h4 class="text-center">Web API (E-commerce)</h4>
-					<p class="text-justify">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<div class="projects-col col-md-6 order-2 order-md-1">
+					<h4 class="text-center">Dice of Argument</h4>
+					<p class="project-desc text-justify">
+                        This is my first personal project as a self-taught front-end-developer, its a two random dice that will roll whenever you refresh 
+                        or click the button. I created this so whenever me and my girlfriend are having an argument, we'll use this to decide who's right. 
 					</p>
+                    <div class="fab-icons">
+                        <i class="fab fa-html5 fa-2x"></i>
+                        <i class="fab fa-css3-alt fa-2x"></i>
+                        <i class="fab fa-js-square fa-2x"></i>
+                    </div>
+                    <button class="btn btn-project btn-dark bg-primary"><a target="_blank" href="https://daryl-webdev.github.io/dice/">View live</a></button>
+                    <button class="btn btn-project btn-dark bg-primary"><a target="_blank" href="https://github.com/Daryl-webdev/dice/tree/master">View Code</a></button>
 				</div>
 				<div class="col-md-6 order-1 order-md-2">
-					<img src="images/tools/API.jpg" class="img-fluid">
+					<img src="images/project1.JPG" class="img-fluid">
 				</div>
 			</div>
 			<div class="row py-3">
-				<div class="col-md-6 order-2 order-md-2">
-					<h4 class="text-center">React Front-end (E-commerce)</h4>
-					<p class="text-justify">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<div class="project-col col-md-6 order-2 order-md-2">
+					<h4 class="text-center">Drum Kit <small>(work in progress)</small></h4>
+					<p class="project-desc text-justify">
+                        This is one of my on-going personal project, it is a project from UDEMY course by Dr. Angela Yu. It's an static website where you can play a set of drums, right now it is on
+                        about 60% done. Its finish status will be; you can play it using keyboard, mouse and have a different sounds.
 					</p>
+                    <div class="fab-icons">
+                        <i class="fab fa-html5 fa-2x"></i>
+                        <i class="fab fa-css3-alt fa-2x"></i>
+                        <i class="fab fa-js-square fa-2x"></i>
+                    </div>
+                    <button class="btn btn-project btn-dark bg-primary"><a>View live</a></button>
+                    <button class="btn btn-project btn-dark bg-primary"><a target="_blank" href="https://github.com/Daryl-webdev/myDrumKit/tree/master">View Code</a></button>
 				</div>
 				<div class="col-md-6 order-1 order-md-1">
-					<img src="images/tools/react.jpg" class="img-fluid">
+					<img src="images/project2.JPG" class="img-fluid">
 				</div>
 			</div>
 		</section>
@@ -191,21 +198,26 @@
         <div class="socmed text-center">
             <div class="text-center">
                 <h4 class="text-white footer-text">Interested to Work with me?</h4>
-                <button class="btn-bottom btn mb-md-2"> Lets talk <i class="fas fa-paper-plane"></i></button>
+                <button class="btn-bottom btn mb-md-2"><a href="contacts.html">Lets talk <i class="fas fa-paper-plane"></i></a> </i></button>
             </div>
             <div>
-                <a href="" ><img src="images/Design/facebook-icon.png" alt=""></a>
-                <a href=""><img src="images/Design/twitter-icon.png" alt=""></a>
-                <a href=""><img src="images/Design/instagram-icon.png" alt=""></a>
-                <a href=""><img src="images/Design/linkedin-icon.png" alt=""></a>
+                <a target="_blank" href="https://www.facebook.com/darylmark1996" ><img src="images/Design/facebook-icon.png" alt=""></a>
+                <a target="_blank" href="https://twitter.com/"><img src="images/Design/twitter-icon.png" alt=""></a>
+                <a target="_blank" href="https://www.instagram.com/dryl_blnk/"><img src="images/Design/instagram-icon.png" alt=""></a>
+                <a target="_blank" href="https://www.linkedin.com/in/mark-daryl-grimaldo-0a681b216/"><img src="images/Design/linkedin-icon.png" alt=""></a>
             </div>
         </div>
-        <section id="contacts">
+        <section id="footer">
             
                 <img src="https://paperpillar.com/assets/images/footer-white-mask.png" class="img-fluid main-bg" alt="">
                 
                 <img src="https://paperpillar.com/assets/images/footer-pattern-bg-lg.png" alt="" class="img-fluid pattern-bg">
         </section>
+        <!-- <div class="scrollToTop">
+            <i class="fas fa-arrow-alt-circle-up fa-3x"></i>
+        </div> -->
+
+        </div>
     
     </main>
     
