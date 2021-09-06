@@ -19,6 +19,7 @@ hr {
 
 .navbar {
     width: 100%;
+    font-size: 15px;
     background: linear-gradient(to right, hsl(237, 97%, 67%),  hsl(237, 97%, 54%));
     z-index: 4
 }
@@ -162,6 +163,16 @@ h3 p {
     font-family: 'Ubuntu', sans-serif;
     background-color: hsl(278, 82%, 58%);
     border: none;
+    color: white;
+}
+.btn-bottom a {
+    color: white;
+}
+
+.github-text a {
+    text-decoration: none;
+    color: white;
+}
 }
 .btn-bottom:active {
     background-color: hsl(278, 82%, 63%);
@@ -296,7 +307,7 @@ h3 p {
     }
     #footer {
         top: 13rem;
-        height: 100%;
+        height: 80%;
     }
 
     .tools-main-container {

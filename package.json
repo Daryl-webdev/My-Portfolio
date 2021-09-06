@@ -1,0 +1,19 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "'My Portfolio'",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/tuitt/students/batch121/mark-grimaldo/my-portfolio.git"
+  },
+  "author": "Daryl G.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tuitt/students/batch121/mark-grimaldo/my-portfolio/issues"
+  },
+  "homepage": "https://gitlab.com/tuitt/students/batch121/mark-grimaldo/my-portfolio#readme"
+}
