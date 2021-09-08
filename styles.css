@@ -130,7 +130,16 @@ h3 p {
     margin-right: 10px;
     color: #ef8172;
 }
-
+.fa-node, .fa-react {
+    font-size: 2rem;
+}
+.img-col {
+    overflow: hidden;
+}
+.img-col a img:hover {
+    transform: scale(1.2);
+    transition: transform 500ms ease-out;
+}
 
 /* footer */
 #footer {
@@ -163,10 +172,10 @@ h3 p {
     font-family: 'Ubuntu', sans-serif;
     background-color: hsl(278, 82%, 58%);
     border: none;
-    color: white;
 }
 .btn-bottom a {
     color: white;
+    text-decoration: none;
 }
 
 .github-text a {
@@ -216,23 +225,6 @@ h3 p {
     font-size: 15.8px;
 }
 
-/* scroll up */
-/* .scrollToTop {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-    background-color: white;
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-    border-radius: 50%;
-    z-index: 12;
-}
-.scrollToTop i {
-    color: hsl(278, 82%, 50%);
-} */
 
 
 /* media query */
